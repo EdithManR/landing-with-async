@@ -1,8 +1,9 @@
 const API = 'https://youtube-v31.p.rapidapi.com/search?channelId=UC8rKCy_tipwTEY3RdkNCKmw&part=snippet%2Cid&order=date&maxResults=9';
+let rapid = '4a0415332dmsh971e95e092e3ac7p1312b5jsn87af70fe9d50';
 const options = {
 	method: 'GET',
 	headers: {
-		'X-RapidAPI-Key': '4a0415332dmsh971e95e092e3ac7p1312b5jsn87af70fe9d50',
+		'X-RapidAPI-Key': rapid,
 		'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com'
 	}
 };
